@@ -37,8 +37,8 @@ client.on(`ready`, () => {
       });
       
 
-    client.user.setActivity(`${Prefix}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "LESTENING" })
-   
+    client.user.setActivity(`Type: ${PREFIX}help - Music Is One`, { type: "LISTENING"})
+    client.user.setActivity(`Type: GuIdis ${client.guilds.cache.size},Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "LISTENING"});
   
       }, (5000));
       /////////////////////////////////
