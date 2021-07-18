@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
   //  .setThumbnail(`https://media.discordapp.net/attachments/790836700561670145/843616964106911794/image0.gif`)
   /// .setImage(`https://media.discordapp.net/attachments/790836700561670145/823721979629535233/image0.gif`)
-    .setAuthor(`Remix`, `https://media.discordapp.net/attachments/790836700561670145/843599820807208970/image0.gif`)
+    .setAuthor(`Power`, `https://media.discordapp.net/attachments/790836700561670145/843599820807208970/image0.gif`)
     .setDescription(`
 
 **User Commands**
@@ -37,7 +37,7 @@ module.exports = {
 \`${PREFIX}slowmode\`
 
 **Links**
-[support](https://discord.gg/VWuQfQfjc9)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=814608707412295780&permissions=8&scope=bot)`)
+[support](https://discord.gg/EE5q5EF3PW)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=866028690915590164&permissions=8&scope=bot)`)
 
  //  .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
