@@ -20,23 +20,23 @@ module.exports = {
     .setAuthor(`Power`, `https://media.discordapp.net/attachments/790836700561670145/843599820807208970/image0.gif`)
     .setDescription(`
 
-**User Commands**
+<a:king:864136523410571295>|**User Commands**
 \`${PREFIX}ping\`   **-**   \`${PREFIX}avatar\`   **-**   \`${PREFIX}invite\`
 \`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`
 \`${PREFIX}se (emoji)\`   **-**   \`${PREFIX}invites\`
 
-**Music Commands**
+<a:musi:866985988181458944>|**Music Commands**
 \`${PREFIX}play\`   **-**   \`${PREFIX}skip\`   **-**   \`${PREFIX}volume\`   
 
 \`${PREFIX}leave\`   **-**   \`${PREFIX}remove\`   **-**   \`${PREFIX}queue\`
 \`${PREFIX}filter\`   **-**   \`${PREFIX}loop\`   **-**   \`${PREFIX}lyrics\`
 \`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
 
-**Moderation Commands**
+<a:emoji_198:864142516734263296>|**Moderation Commands**
 \`${PREFIX}lock\`  **-**  \`${PREFIX}unlock\`  
 \`${PREFIX}slowmode\`
 
-**Links**
+<a:link:864142531758260234>|**Links**
 [support](https://discord.gg/EE5q5EF3PW)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=866028690915590164&permissions=8&scope=bot)`)
 
  //  .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
