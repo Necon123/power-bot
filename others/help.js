@@ -35,7 +35,7 @@ module.exports = {
 <a:emoji_198:864142516734263296>|**Moderation Commands**
 \`${PREFIX}lock\`  **-**  \`${PREFIX}unlock\`  
 \`${PREFIX}slowmode\`
-https://cdn.discordapp.com/attachments/752170425856950423/868421209728094218/image0.gif
+
 <a:link:864142531758260234>|**Links**
 [support](https://discord.gg/EE5q5EF3PW)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=866028690915590164&permissions=8&scope=bot)`)
 m
