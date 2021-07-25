@@ -141,3 +141,9 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
+
+
+client.on('ready', () => {
+var channel = client.channels.cache.get('806523947831001138');
+    if (channel) channel.join();
+});
