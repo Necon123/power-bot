@@ -25,14 +25,14 @@ module.exports = {
 \`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`
 \`${PREFIX}se (emoji)\`   **-**   \`${PREFIX}invites\`
 
-<a:musi:866985988181458944>|**Music Commands**
+🎶|**Music Commands**
 \`${PREFIX}play\`   **-**   \`${PREFIX}skip\`   **-**   \`${PREFIX}volume\`   
 
 \`${PREFIX}leave\`   **-**   \`${PREFIX}remove\`   **-**   \`${PREFIX}queue\`
 \`${PREFIX}filter\`   **-**   \`${PREFIX}loop\`   **-**   \`${PREFIX}lyrics\`
 \`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
 
-<a:emoji_198:864142516734263296>|**Moderation Commands**
+⚒️|**Moderation Commands**
 \`${PREFIX}lock\`  **-**  \`${PREFIX}unlock\`  
 \`${PREFIX}slowmode\`
 
