@@ -20,7 +20,7 @@ module.exports = {
     .setAuthor(`Power`, `https://media.discordapp.net/attachments/790836700561670145/843599820807208970/image0.gif`)
     .setDescription(`
 
-<a:king:864136523410571295>|**User Commands**
+⚙️|**User Commands**
 \`${PREFIX}ping\`   **-**   \`${PREFIX}avatar\`   **-**   \`${PREFIX}invite\`
 \`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`
 \`${PREFIX}se (emoji)\`   **-**   \`${PREFIX}invites\`
