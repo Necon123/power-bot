@@ -332,5 +332,20 @@ client.on('message',  (message) => {
   "https://media.discordapp.net/attachments/738277612039962688/775010009972867082/image8.gif",
   "https://media.discordapp.net/attachments/738277612039962688/775010010152566804/image9.gif"
  
- 
   ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} **SAD GIFS**`,
+          image: {
+            url: sads[Math.floor(Math.random() * sads.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+  
