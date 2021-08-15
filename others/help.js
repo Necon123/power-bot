@@ -21,9 +21,9 @@ module.exports = {
     .setDescription(`
 
 ⚙️|**User Commands**
->\`${PREFIX}ping\`   **-**   \`${PREFIX}avatar\`   **-**   \`${PREFIX}invite\`
->\`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`
->\`${PREFIX}se (emoji)\`   **-**   \`${PREFIX}invites\`
+> \`${PREFIX}ping\`   **-**   \`${PREFIX}avatar\`  **-**   \`${PREFIX}invite\`
+> \`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`  **-**   \`${PREFIX}uptime\`
+> \`${PREFIX}se (emoji)\` **-**   \`${PREFIX}invites\`  **-** \`${PREFIX}uptime\`
 
 🎶|**Music Commands**
 \`${PREFIX}play\`   **-**   \`${PREFIX}skip\`   **-**   \`${PREFIX}volume\`   
