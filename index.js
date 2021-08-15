@@ -379,17 +379,28 @@ client.on('message', async message => {
     }
 });
 
-client.on("message", async msg => {
-    if (msg.author.bot) return;
-    if (msg.channel.type == "dm") return;
-    if (!msg.content.startsWith(prefix)) return;
-    const args = msg.content.slice(prefix.length).trim().split(" ");
-    const command = args.shift().toLowerCase()
-    if (command === "say") {
-        var arg = msg.content.split(' ').slice(1).join(' ')
-        msg.channel.send(
-            new Discord.MessageEmbed()
-            .setDescription(arg)
-        );
+client.on("message", async ncr => {
+    if (ncr.content.startsWith(prefix + "ping")) {
+    var states = "🟢 Excellent";
+    var states2 = "🟢 Excellent";
+    var ncr = message;
+    var msg = `${Date.now() - ncr.createdTimestamp}`;
+    var api = `${Math.round(client.ws.ping)}`;
+    if (Number(msg) > 70) states = "🟢 Good";
+    if (Number(msg) > 170) states = "🟡 Not Bad";
+    if (Number(msg) > 350) states = "🔴 Soo Bad";
+    if (Number(api) > 70) states2 = "🟢 Good";
+    if (Number(api) > 170) states2 = "🟡 Not Bad";
+    if (Number(api) > 350) states2 = "🔴 Soo Bad";
+    if (ncr.author.bot) return;
+    ncr.channel.send(
+      new MessageEmbed()
+        .setColor("00e8ff")
+        .setAuthor(ncr.author.username, ncr.author.avatarURL())
+        .addField("**Time Taken:**", msg + " ms 📶 | " + states, true)
+        .addField("**WebSocket:**", api + " ms 📶 | " + states2, true)
+        .setTimestamp()
+        .setFooter(`Request By ${ncr.author.tag}`)
+    ); // All Copyrights Go's To </> NAAR Studio: https://discord.gg/YJ6mUdgTscs
     }
 });
