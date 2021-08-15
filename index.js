@@ -334,7 +334,7 @@ client.on("message", message => {
     message.channel
       .send({
         embed: {
-          description: `${message.author.username} **SAD GIFS**`,
+          description: `${message.author.username} **NEON GIFS**`,
           image: {
             url: sads[Math.floor(Math.random() * sads.length)]
           }
