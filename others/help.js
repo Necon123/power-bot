@@ -39,7 +39,7 @@ module.exports = {
 
 ⚒️|**Moderation Commands**
 > \`${PREFIX}lock\`   **-**  \`${PREFIX}unlock\`  
-> \`${PREFIX}ban\`    **-**  \`${PREFIX}ban\`    
+> \`${PREFIX}unban\`    **-**  \`${PREFIX}ban\`    
 > \`${PREFIX}slowmode\`
 
 <a:link:864142531758260234>|**Links**
