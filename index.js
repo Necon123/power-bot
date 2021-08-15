@@ -413,25 +413,4 @@ client.on("message", async message => {
     }
 });
 
-client.on("message", msg => {
- if (msg.content.startsWith(prefix + "mute")) {
-  var bawan = "kurd shop"
-   var muteRole = msg.guild.roles.cache.find(role => role.name.toLowerCase().includes("muted"));
-    var muteUser = msg.mentions.members.first();
-    var muteReason = msg.content.slice(prefix.length + 27);
-    if (!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.channel.send("pewist ba role a bo anjamdane amkara");
-    if (!muteUser) return msg.channel.send("kasek mention bka");
- if (!muteRole) return msg.channel.send("there is no role Muted");
-  if (!msg.guild.member(client.user.id).hasPermission("MANAGE_ROLES")) return msg.channel.send("sarata rolem bare inja bakarm hena");
- 
- 
-    var muteEmbed = new Discord.MessageEmbed() 
-    .setTitle("Mute")
-    .addField("Muted user", muteUser)
-    .setFooter(`Muted by ${msg.author.tag}`)
-    .setTimestamp()
-    muteUser.roles.add(muteRole);
-    msg.channel.send(muteEmbed);
- 
-  }
-})
+
