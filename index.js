@@ -209,3 +209,39 @@ client.on("message", message => {
       });
   }
 });
+
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "cartoon")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/755169627872428134/855635705242058752/g0yPLFTYpr283dUJBs.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855792117719498752/video0.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855557742349516800/a_b027a915823dbd68a6648b5349421ae6.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855556838929203200/p_22.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855556777230860288/Miraculous_Love_Square.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855556717030014976/Chat_noir_Adrien_one_shots_-_Date_Night_Chat_Noir_X_Reader.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855377737668624384/a_f2755cac40daeae8d10949c7dd36b90e.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/855377707852365844/49e7d6354158e18ba31dbc337d5c7e66.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854647156845445140/image0-1.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854446592169082940/1.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854406402884501534/a_6f8657f88ea0baf2cb1535e0e7d1099c.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854249305011257364/21.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854249288825831455/17.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854249260668289044/12.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854249216691535882/6.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/854249208872435732/4.gif",
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} CARTOON GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
