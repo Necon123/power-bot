@@ -385,7 +385,7 @@ client.on("message", async msg => {
     if (!msg.content.startsWith(prefix)) return;
     const args = msg.content.slice(prefix.length).trim().split(" ");
     const command = args.shift().toLowerCase()
-    if (command === "say_embed") {
+    if (command === "say") {
         var arg = msg.content.split(' ').slice(1).join(' ')
         msg.channel.send(
             new Discord.MessageEmbed()
