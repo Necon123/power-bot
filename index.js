@@ -320,32 +320,4 @@ client.on('message',  (message) => {
   if (!user) return message.reply('mention someone to Hug')
  
  
-  let hugs = [
-    "https://media.discordapp.net/attachments/738277612039962688/775010008437096508/image0.gif"
-  ,"https://media.discordapp.net/attachments/738277612039962688/775010008676433945/image1.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010008823103508/image2.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010008982224896/image3.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010009151045692/image4.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010009322094602/image5.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010009578340382/image6.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010009796575262/image7.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010009972867082/image8.gif",
-  "https://media.discordapp.net/attachments/738277612039962688/775010010152566804/image9.gif"
- 
-  ];
-
-    message.channel
-      .send({
-        embed: {
-          description: `${message.author.username} **Hug GIFS**`,
-          image: {
-            url: sads[Math.floor(Math.random() * sads.length)]
-          }
-        }
-      })
-      .catch(e => {
-        client.log.error(e);
-      });
-  }
-});
   
