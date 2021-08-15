@@ -21,20 +21,28 @@ module.exports = {
     .setDescription(`
 
 ⚙️|**User Commands**
-> \`${PREFIX}ping\`   **-**   \`${PREFIX}avatar\`  **-**   \`${PREFIX}invite\`
-> \`${PREFIX}prefix\`   **-**   \`${PREFIX}uptime\`  **-**   \`${PREFIX}uptime\`
-> \`${PREFIX}se (emoji)\` **-**   \`${PREFIX}invites\`  **-** \`${PREFIX}uptime\`
+> \`${PREFIX}ping\`    **-**   \`${PREFIX}avatar\`   **-**   \`${PREFIX}invite\`
+> \`${PREFIX}prefix\`  **-**   \`${PREFIX}uptime\`  
+> \`${PREFIX}se\`      **-**   \`${PREFIX}invites\`
 
 🎶|**Music Commands**
-\`${PREFIX}play\`   **-**   \`${PREFIX}skip\`   **-**   \`${PREFIX}volume\`   
+> \`${PREFIX}play\`    **-**   \`${PREFIX}skip\`     **-**   \`${PREFIX}volume\`   
+> \`${PREFIX}leave\`   **-**   \`${PREFIX}remove\`   **-**   \`${PREFIX}queue\`
+> \`${PREFIX}filter\`  **-**   \`${PREFIX}loop\`     **-**   \`${PREFIX}lyrics\`
+> \`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
 
-\`${PREFIX}leave\`   **-**   \`${PREFIX}remove\`   **-**   \`${PREFIX}queue\`
-\`${PREFIX}filter\`   **-**   \`${PREFIX}loop\`   **-**   \`${PREFIX}lyrics\`
-\`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
+<876501535566221343>|**Gif Commands**
+> \`${PREFIX}boy\`    **-** \`${PREFIX}girl\`
+> \`${PREFIX}neon\`   **-** \`${PREFIX}couple\`
+> \`${PREFIX}anime\`  **-** \`${PREFIX}cartoon\` 
+
 
 ⚒️|**Moderation Commands**
-\`${PREFIX}lock\`  **-**  \`${PREFIX}unlock\`  
+\`${PREFIX}lock\`     **-**  \`${PREFIX}unlock\`  
 \`${PREFIX}slowmode\`
+
+
+
 
 <a:link:864142531758260234>|**Links**
 [support](https://discord.gg/EE5q5EF3PW)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=866028690915590164&permissions=8&scope=bot)`)
