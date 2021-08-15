@@ -379,41 +379,17 @@ client.on('message', async message => {
     }
 });
 
-client.on("message", (message) => {
-    if (message.content.startsWith(prefix + "unban")) {
-        if (message.channel.type == "dm") return;
-        if (message.author.bot) return;
-        try {
-            if (!message.member.hasPermission('BAN_MEMBERS')) return message.channel.send(
-                new Discord.MessageEmbed()
-                .setColor("RED")
-                .setDescription("❌" + " **You Need `BAN_MEMBERS` Permission To Use This Command!**")
-            );
-            message.guild.fetchBans().then(bans => {
-                if (bans.size == 0) {
-                    message.reply(
-                        new Discord.MessageEmbed()
-                        .setColor("RED")
-                        .setDescription(
-                            `**❌ | Thare Is No Bannded Members!**`
-                        )
-                    );
-                };
-                bans.forEach(ban => {
-                    message.guild.members.unban(ban.user.id);
-                    let una = bans.size;
-                    message.channel.send(
-                        new Discord.MessageEmbed()
-                        .setColor("GREEN")
-                        .setDescription(
-                            `**✅ | Done Unbaned ${una} Members!**`
-                        )
-                    )
-                });
-            })
-        } catch (e) {
-            message.channel.send(`\`\`\`js\n${e}\n\`\`\``)
-            console.log()
-        }
+client.on("message", async msg => {
+    if (msg.author.bot) return;
+    if (msg.channel.type == "dm") return;
+    if (!msg.content.startsWith(prefix)) return;
+    const args = msg.content.slice(prefix.length).trim().split(" ");
+    const command = args.shift().toLowerCase()
+    if (command === "say_embed") {
+        var arg = msg.content.split(' ').slice(1).join(' ')
+        msg.channel.send(
+            new Discord.MessageEmbed()
+            .setDescription(arg)
+        );
     }
-})
+});
