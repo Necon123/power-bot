@@ -31,7 +31,7 @@ module.exports = {
 > \`${PREFIX}filter\`  **-**   \`${PREFIX}loop\`     **-**   \`${PREFIX}lyrics\`
 > \`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
 
-<:cute:876501535566221343> |**Gif Commands**
+<:cute:876501535566221343>|**Gif Commands**
 > \`${PREFIX}boy\`    **-** \`${PREFIX}girl\`
 > \`${PREFIX}neon\`   **-** \`${PREFIX}couple\`
 > \`${PREFIX}anime\`  **-** \`${PREFIX}cartoon\` 
