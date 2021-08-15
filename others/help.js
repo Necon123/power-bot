@@ -31,7 +31,7 @@ module.exports = {
 > \`${PREFIX}filter\`  **-**   \`${PREFIX}loop\`     **-**   \`${PREFIX}lyrics\`
 > \`${PREFIX}radio\`   **-**   \`${PREFIX}search\`   **-**   \`${PREFIX}shuffle\`
 
-<876501535566221343>|**Gif Commands**
+<@876501535566221343>|**Gif Commands**
 > \`${PREFIX}boy\`    **-** \`${PREFIX}girl\`
 > \`${PREFIX}neon\`   **-** \`${PREFIX}couple\`
 > \`${PREFIX}anime\`  **-** \`${PREFIX}cartoon\` 
@@ -40,9 +40,6 @@ module.exports = {
 ⚒️|**Moderation Commands**
 \`${PREFIX}lock\`     **-**  \`${PREFIX}unlock\`  
 \`${PREFIX}slowmode\`
-
-
-
 
 <a:link:864142531758260234>|**Links**
 [support](https://discord.gg/EE5q5EF3PW)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=866028690915590164&permissions=8&scope=bot)`)
