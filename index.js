@@ -181,18 +181,18 @@ client.on("message", message => {
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "girl")) {
     let girl = [
-      "https://media.discordapp.net/attachments/786897045436366849/804968189892755456/image2-1.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804968223577604126/gif472.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804968231794245642/rexsin_212.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804968258859827210/pintrst___luri_4.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804983128527077387/a_177ddfe86ad32b68be6200f007682136.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/805008600334073866/3WIu.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/805370008330436648/image0.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/805008566439641128/image0.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804681217022099466/a_3c85d4517fbaf4f750d344820b49c076.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804682936615829504/image0.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804314115601596426/ALANIS_WOMAN_GIF_176.gif",
-      "https://media.discordapp.net/attachments/786897045436366849/804280612227383316/ALANIS_WOMAN_GIF_138.gif"
+      "",
+      "",
+      "",
+      "",
+      "",
+      "https://media.discordapp.net/attachments/608711473652563968/876912089829089402/Icecek_Icen_4.gif",
+      "https://media.discordapp.net/attachments/608711473652563968/876912269253017671/I_just_wanna_die___.gif",
+      "https://media.discordapp.net/attachments/791738016896778290/876908256025522216/image1.gif",
+      "https://media.discordapp.net/attachments/791738016896778290/876908257040560128/image3.gif",
+      "https://media.discordapp.net/attachments/791738016896778290/876908257464172604/image4.gif",
+      "https://media.discordapp.net/attachments/791738016896778290/876911939777871943/image0.gif",
+      "https://images-ext-2.discordapp.net/external/r6jYZiCEPW6_iFVPFmCAQ4TKpJwKLY8bUbjHYeuVSbU/https/media.discordapp.net/attachments/791738016896778290/876911838489608232/image0.gif",
     ];
 
     message.channel
