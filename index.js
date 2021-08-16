@@ -181,11 +181,11 @@ client.on("message", message => {
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "girl")) {
     let girl = [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "https://media.discordapp.net/attachments/608711473652563968/876893231265235024/Goz_7.gif",
+      "https://media.discordapp.net/attachments/608711473652563968/876897253787316244/image0-4-2.gif",
+      "https://media.discordapp.net/attachments/608711473652563968/876916514316492830/efektli3.gif",
+      "https://media.discordapp.net/attachments/608711473652563968/876916556108546068/efektli5.gif",
+      "https://media.discordapp.net/attachments/608711473652563968/876916599922229298/ehmehm.gif",
       "https://media.discordapp.net/attachments/608711473652563968/876912089829089402/Icecek_Icen_4.gif",
       "https://media.discordapp.net/attachments/608711473652563968/876912269253017671/I_just_wanna_die___.gif",
       "https://media.discordapp.net/attachments/791738016896778290/876908256025522216/image1.gif",
