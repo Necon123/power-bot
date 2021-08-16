@@ -317,18 +317,18 @@ client.on("message", message => {
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "neon")) {
     let sads = [
-      "https://media.discordapp.net/attachments/764927608013193276/787307237403525150/image0.gif",
-      "",
-      "/a_caf4fdc4f3e516fcabec0022078cgif",
-      "https://media.discordapp.net/attachments/786897045952790550/804040753072439326/.gif",
-      "https://media.discordapp.net/attachments/786897045952790550/787581071079768074/image0.gif",
-      "",
-      "https://media.discordapp.net/attachments/786897045952790550/787580974975549450/image0.gif",
-      "https://media.discordapp.net/attachments/786897045952790550/787580943627976704/image0.gif",
-      "if_81.gif",
-      "https://media.discordapp.net/attachments/786897045952790550/802722301984243712/a_66f26e072e89a58c1879c6fa27744bd7.gif",
-      "",
-      ""
+      "https://media.discordapp.net/attachments/767332506101219348/801894571008589915/6.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/801942418513461328/image1.gif",
+      "https://media.discordapp.net/attachments/767332506101219348/801894562800861184/2.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/801941568025395210/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/793756585813868585/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/801942926603059210/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/793756346893205524/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/793756703082283058/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/801942276741398558/image2.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/780790908060172308/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/793756075219615754/image0.gif",
+      "https://media.discordapp.net/attachments/764927608013193276/801942412800294943/image0.gif",
     ];
 
     message.channel
