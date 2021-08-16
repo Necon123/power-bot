@@ -317,8 +317,8 @@ client.on("message", message => {
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "neon")) {
     let sads = [
-      "https://media.discordapp.net/attachments/786897045952790550/7Zeyrox_43.gif",
-      "https://media.discordapp.n",
+      "https://media.discordapp.net/attachments/764927608013193276/787307237403525150/image0.gif",
+      "",
       "/a_caf4fdc4f3e516fcabec0022078cgif",
       "https://media.discordapp.net/attachments/786897045952790550/804040753072439326/.gif",
       "https://media.discordapp.net/attachments/786897045952790550/787581071079768074/image0.gif",
