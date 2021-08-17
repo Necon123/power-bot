@@ -33,7 +33,7 @@ module.exports = {
 
 <:cute:876501535566221343>|**Gif Commands**
 > \`${PREFIX}boy\`    **-** \`${PREFIX}girl\`
-> \`${PREFIX}neon\`   **-** \`${PREFIX}couple\`
+> \`${PREFIX}neon\`   **-** \`${PREFIX}sad\`
 > \`${PREFIX}anime\`  **-** \`${PREFIX}cartoon\` 
 
 
