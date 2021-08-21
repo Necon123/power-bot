@@ -412,26 +412,6 @@ client.on("message", async message => {
         }
     }
 });
-//===============================================================================\\
-client.on('guildCreate', guild => {
-client.channels.cache.get("878592571193036810")
-  .send(`
-✅ **Join Server**: ${client.guilds.cache.size}
-🔠 **Server Name**: ${guild.name}
-👑 **Server Owner**: ${guild.owner}
-🆔 **Server Id**: ${guild.id}
-👥 **Member Count**: ${guild.memberCount}**`)
-});
-////////////////////////////////////////////
-client.on('guildDelete', guild => {
-  client.channels.cache.get("878592522836905984")
-  .send(`
-❎ **Lift Server**: ${client.guilds.cache.size}
-🔠 **Server Name**: ${guild.name}
-👑 **Server Owner**: ${guild.owner}
-🆔 **Server Id**: ${guild.id}
-👥 **Member Count**: ${guild.memberCount}**`)
-});
-//================================================================================\\
+
 
 
